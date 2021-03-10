@@ -2,3 +2,53 @@
 @import url('https://fonts.googleapis.com/css2?family=Black+Ops+One&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@300&display=swap');
 
+/* My palette */
+:root {
+    --main-color-txt: #ffffff;
+    --main-bg-header: #99857A;
+    --logo:rgb(241,100,100);
+    --color2:#663926;
+    --color3:#FF9D6F;
+    --color4: #E27B58;
+    --color5: #C67B5C;
+}
+
+body{
+    font-size: 20px;
+    color: var(--main-color-txt);
+    font-family: 'Open Sans Condensed', sans-serif;
+    background-color: rgb(4,4,4);
+}
+h1,h2,h3,h4{
+    font-weight: 700;
+}
+p{font-size: 1rem;}
+
+/* miei reset aggiuntivi */
+li{list-style: none;}
+img{
+    max-width: 100%;
+    height: auto;
+}
+
+/* classi "fast" per impostare velocemente istruzioni di display */
+.flex{display: flex;}
+.flex-column{flex-direction: column;}
+.grid{display: grid;}
+.full-height{
+    min-height: 100vh;
+    height: 100%;
+}
+.myp-0{padding: 0;}
+.myp-0_5{padding: 0.5rem;}
+.myp-1{padding: 1rem;}
+.myp-1_5{padding:1.5rem}
+.tac{text-align: center;}
+
+/* ************************ */
+
+header{
+    background-color: var(--main-bg-header);
+    color: var(--color5);
+    grid-template-rows:1fr 4fr 1fr ;
+}
