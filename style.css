@@ -151,6 +151,11 @@ section.slogan p{
 }
 img.filter{filter: sepia(70%);}
 
+footer .end{
+    justify-content: center;
+    align-items: flex-end;
+}
+
 
 
 
