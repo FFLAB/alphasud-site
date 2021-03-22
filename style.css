@@ -131,6 +131,26 @@ section.slogan p{
 }
 .card-title{text-align: center;}
 
+/* icone social */
+.social-brands{
+    justify-content: flex-end;
+    padding: 1rem 2rem;
+}
+.social-brands .fab{
+    padding: 0.5rem;
+    font-size: 2rem;
+    color: var(--main-color-txt);
+    text-decoration: none;
+}
+.social-brands a:hover{
+    opacity: 0.5;
+}
+.card-body p{
+    padding: 0 2rem;
+    font-size: 1.5rem;
+}
+img.filter{filter: sepia(70%);}
+
 
 
 
@@ -145,7 +165,7 @@ section.slogan p{
     column-gap: 1rem;
 }
 .col-2{
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: 1fr 2fr;
     column-gap: 1rem;
 }
 
