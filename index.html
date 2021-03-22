@@ -28,9 +28,10 @@
             </div>
             <nav>
                 <ul class="flex">
-                    <li><a href="#mission">La Missione</a></li>
-                    <li><a href="#crew">Crew</a></li>
-                    <li><a href="#faq">Faq</a></li>
+                    <!-- la classe js-trigger serve a moveTo per attivare l'animazione scrolling -->
+                    <li><a class="js-trigger" href="#mission">La Missione</a></li>
+                    <li><a class="js-trigger" href="#crew">Crew</a></li>
+                    <li><a class="js-trigger" href="#faq">Faq</a></li>
                 </ul>
             </nav>
 
@@ -141,10 +142,14 @@
 
         </div>
         <div class="col flex end">
-            <p><a class="" href="#one">BACK TO TOP</a></p>
+            <p><a class="btn-move js-trigger" href="#one">BACK TO TOP</a></p>
         </div>
 
     </footer>
     
+    <!-- carico Library JS per scrolling -->
+    <script src="js/moveTo.min.js"></script>
+    <!-- carico mio script aggiuntivo per comandi -->
+    <script src="js/app.js"></script>
 </body>
 </html>
