@@ -195,6 +195,7 @@ li.card-item:hover{
 ul.col-4{padding: 1rem;}
 .el-info ul{padding-left: 0.2rem;}
 
+/* IMPORTANTE: per le animazioni slide aggiungere un overflow:hidden per evitare problemi sull'asse orizzontale */
 .energy{overflow: hidden;}
 footer .col{
     background-color: var(--color2);
