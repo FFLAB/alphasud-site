@@ -197,6 +197,32 @@ ul.col-4{padding: 1rem;}
 
 /* IMPORTANTE: per le animazioni slide aggiungere un overflow:hidden per evitare problemi sull'asse orizzontale */
 .energy{overflow: hidden;}
+
+/* Stile per FAQ - accordion */
+.accordion-toggle{
+    display: block;
+}
+/* nascondiamo in partenza i testi delle FAQ */
+.accordion-content{display: none;}
+
+/* con click + JavaScript attiviamo la classe active */
+.accordion-content.active{display: block;}
+
+section#faq{
+    padding: 1rem 10vw;
+    background-color: var(--color5);
+}
+.accordion-content.active p{
+    font-size: 1.3rem;
+    color: var(--main-color-txt);
+}
+section#faq a{
+    text-decoration: underline;
+    color: var(--main-color-txt);
+}
+
+
+
 footer .col{
     background-color: var(--color2);
     color: var(--main-color-txt);
